@@ -27,7 +27,27 @@ public class Main {
         System.out.println();
         System.out.println("                  ↓--------------- Class method --------------↓");
         System.out.println("Perimeter of the trapezoid = " + t2.getPerimetr());
+        System.out.println();
 
+// Почему при изменении t2.setLenghtB(15) - площа при выводе остается не изменной System.out.println(t2.getArea());
+        System.out.println("↓(Change trapezoid properties)↓");
+        t2.setLenghtA(20);
+        System.out.println("Trapezium area = " + t2.getArea());
+        t2.setLenghtB(15);
+        System.out.println("lenghtB = " + t2.getLenghtB());
+
+        System.out.println();
+        System.out.println("                   ↓-----Выводим данные через toString-----↓");
+        System.out.println(t2.toString());
+
+        Trapezoid t3 = new Trapezoid();
+        t3.setLenghtA(8);
+        t3.setLenghtB(9);
+        t3.setHeight(10);
+        t3.setWidthA(11);
+        t3.setWidthB(12);
+        System.out.println(t3.toString());
+        System.out.println("                          ↑----Пустой Конструктор---↑");
 
     }
 }
