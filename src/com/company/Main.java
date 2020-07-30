@@ -3,8 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-     //Вычисление площи Трапеции!
-        // Формула S = (a+b)/2*h
+     //Вычисление площи и периметра Трапеции!
+        // Формула S = (a+b)/2*h and P = a + b + c + d
 
         int lenghtA = 11;
         int lenghtB = 5;
